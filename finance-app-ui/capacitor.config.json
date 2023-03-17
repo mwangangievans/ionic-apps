@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "finance-app-ui",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
