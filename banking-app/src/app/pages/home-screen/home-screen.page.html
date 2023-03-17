@@ -1,0 +1,27 @@
+<ion-content color="primary">
+  <ion-row >
+    <ion-col class="ion-float-left">
+      <div >
+        <p> <b>{{time_now | date:'h:mm'}}</b></p>
+      </div>
+    </ion-col>
+    <ion-col >
+      <div class="ion-float-right ion-padding">
+        <ion-icon name="cellular"></ion-icon>
+        <ion-icon name="wifi"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </div>
+    </ion-col>
+  </ion-row>
+  <div class="ion-align-items-center">
+    <ion-img width="60" height="60" src="../../../assets/icon/logo2.png" alt="image"></ion-img>
+  </div>
+</ion-content>
+<ion-footer class="ion-float-bottom">
+  <ion-toolbar>
+    <div color="primary" class="container">
+      <ion-button (click)="presentActionSheet()">Get Started</ion-button>
+    </div>
+  </ion-toolbar>
+</ion-footer>
+
